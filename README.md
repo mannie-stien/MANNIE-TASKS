@@ -62,5 +62,5 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mannietasks.git
-cd mannietasks
+git clone https://github.com/mannie-stien/MANNIE-TASKS.git
+cd MANNIE-TASKS
