@@ -1,6 +1,8 @@
 # Node modules
 mannie-tasks-frontend/node_modules/
 
+django-env/
+
 # Python virtual environment
 mannie_tasks_backend/venv/
 
