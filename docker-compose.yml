@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  backend:
+    build: ./mannie_tasks_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./mannie_tasks_backend:/app
+  frontend:
+    build: ./mannie-tasks-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./mannie-tasks-frontend:/app

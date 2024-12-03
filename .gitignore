@@ -1,0 +1,14 @@
+# Node modules
+mannie-tasks-frontend/node_modules/
+
+# Python virtual environment
+mannie_tasks_backend/venv/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+
+# Docker artifacts
+*.env
