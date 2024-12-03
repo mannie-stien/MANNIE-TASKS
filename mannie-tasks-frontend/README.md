@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# MannieTasks - Full-Stack To-Do List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**MannieTasks** is a full-stack task management application designed to help users organize and manage their daily activities efficiently. It provides an intuitive interface to **create**, **edit**, **mark as completed**, and **delete tasks**. The application features a modern UI built with **React** and a robust backend powered by **Django REST Framework**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Task Management**:
+   - Add tasks with a title and description.
+   - Edit task details using a modal interface.
+   - Mark tasks as completed or pending with a single click.
+   - Delete tasks from the list when no longer needed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **User Interface**:
+   - Clean, responsive design with **React Bootstrap**.
+   - Tasks are categorized into **Pending** and **Completed** columns for better organization.
+   - A search bar allows users to filter tasks by title.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Dynamic Modals**:
+   - **Add Task Modal**: Simplifies task creation with a user-friendly form.
+   - **Edit Task Modal**: Allows editing of task details without page reloads.
 
-### `npm test`
+4. **API-Driven Backend**:
+   - Built using **Django REST Framework** for efficient data handling.
+   - Full **CRUD** functionality for task management.
+   - Supports RESTful operations for easy integration with the frontend.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Containerized Deployment**:
+   - Dockerized setup for both frontend and backend.
+   - Simplified deployment using **Docker Compose**.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend:
+- **React.js**: For building the user interface.
+- **React Bootstrap**: To create responsive and visually appealing components.
+- **Axios**: For making HTTP requests to the backend.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Backend:
+- **Django**: Web framework for the backend.
+- **Django REST Framework**: For building APIs.
+- **PostgreSQL**: As the database (configurable to other databases if required).
 
-### `npm run eject`
+### Deployment:
+- **Docker**: For containerization.
+- **Docker Compose**: To orchestrate multi-container applications.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup Instructions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- **Docker** and **Docker Compose**: [Install Docker](https://docs.docker.com/get-docker/).
+- **Node.js** (if running the frontend locally): [Install Node.js](https://nodejs.org/).
+- **Python 3.x** (if running the backend locally).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### Clone the Repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
